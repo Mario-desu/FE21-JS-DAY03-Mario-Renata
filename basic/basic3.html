@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        #cold{
+            display: none;
+        }
+
+        #moderate{
+            display: none;
+        }
+
+        #hot{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-75 m-auto text-center bg-light">
+
+        <div class="display-1 bg-success text-white">
+            <p>Todays weather</p>
+        </div>
+        <div class="bg-info" id="cold">
+            <div>
+                <p class="display-3" id="cold-p"></p>
+            </div>
+            <div> <img src="https://source.unsplash.com/U5rMrSI7Pn4/400x400" alt="cold weather" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="bg-warning " id="moderate">
+            <div>
+                <p class="display-3" id="moderate-p"></p>
+            </div>
+            <div> <img src="https://source.unsplash.com/yXUwIAWZWp8/400x400" alt="cold weather" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="hot bg-danger " id="hot">
+            <div>
+                <p class="display-3" id="hot-p"></p>
+            </div>
+            <div> <img src="https://source.unsplash.com/m82uh_vamhg/400x400" alt="cold weather" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="basic3.js"></script>
+    
+</body>
+</html>
